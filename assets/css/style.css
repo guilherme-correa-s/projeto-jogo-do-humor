@@ -4,20 +4,24 @@
     background-color: lightskyblue;
     margin: 0;
 }
-header div#titulo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+header{
     background-color:rgb(167, 209, 233);
     border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+header div#titulo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color:rgb(167, 209, 233);
 }
 header div#titulo h1{
     color: black;
     padding: 30px;
     font-size: 50px;
     font-weight: 800;
-    display: flex;
-    justify-content: center;
     background-color:rgb(167, 209, 233);
 }
 header div#titulo p{
@@ -25,6 +29,10 @@ header div#titulo p{
     font-weight: 800;
     font-size: 30px;
     background-color:rgb(167, 209, 233);
+}
+header div#img-titulo img#img-lufy-titulo{
+    padding-left: 2rem;
+    background-color:rgb(167, 209, 233); 
 }
 section{
     margin-top: 2rem;
@@ -36,20 +44,24 @@ section div#personagem{
     font-weight: 800;
     font-size: 20px;
 }
-header div#personagem p{
+section div#personagem p{
     font-weight: 400;    
     font-size: 20px;
 }
-
 section div#botao button#botãoHumor{
     margin-top: 1.5rem;
     margin-bottom: 2rem;
     font-size: 20px; 
     border-radius: 5rem;
     padding: 1rem;
-    background-color: rgb(167, 209, 233);
     border-style: none;
     border: solid black;
+    transition: all .5s ease-out;
+}
+section div#botao button#botãoHumor:hover{
+    background-color: rgb(167, 209, 233);
+    color: red;
+    transform: scale(1.2);
 }
 section div#result-humor{
     font-size: 50px;
