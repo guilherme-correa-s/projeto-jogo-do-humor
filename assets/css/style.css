@@ -1,0 +1,65 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    background-color: lightskyblue;
+    margin: 0;
+}
+header div#titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(167, 209, 233);
+    border: solid black;
+}
+header div#titulo h1{
+    color: black;
+    padding: 30px;
+    font-size: 50px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(167, 209, 233);
+}
+header div#titulo p{
+    color: black;
+    font-weight: 800;
+    font-size: 30px;
+    background-color:rgb(167, 209, 233);
+}
+section{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section div#personagem{
+    font-weight: 800;
+    font-size: 20px;
+}
+header div#personagem p{
+    font-weight: 400;    
+    font-size: 20px;
+}
+
+section div#botao button#botãoHumor{
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 20px; 
+    border-radius: 5rem;
+    padding: 1rem;
+    background-color: rgb(167, 209, 233);
+    border-style: none;
+    border: solid black;
+}
+section div#result-humor{
+    font-size: 50px;
+    background-color: black;
+    text-align: center;
+}
+section div#result-humor p{
+    font-weight: 800;
+    color: red;
+}
+section div#result-humor h3{
+    font-size: 50px;
+}
