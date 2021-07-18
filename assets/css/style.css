@@ -48,7 +48,7 @@ section div#personagem p{
     font-weight: 400;    
     font-size: 20px;
 }
-section div#botao button#botãoHumor{
+section div#botao button#botao-humor{
     margin-top: 1.5rem;
     margin-bottom: 2rem;
     font-size: 20px; 
@@ -56,9 +56,9 @@ section div#botao button#botãoHumor{
     padding: 1rem;
     border-style: none;
     border: solid black;
-    transition: all .5s ease-out;
+    transition: all .2s ease-out;
 }
-section div#botao button#botãoHumor:hover{
+section div#botao button#botao-humor:hover{
     background-color: rgb(167, 209, 233);
     color: red;
     transform: scale(1.2);
